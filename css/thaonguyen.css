@@ -1,0 +1,236 @@
+ @charset "utf-8";
+/* CSS Document */
+
+.background
+{width: 100%;
+ height: 3000px;
+ background-color: black;}
+
+.menubar
+{width: 100%;
+ height: 65px;
+ background-color: #000000;}
+
+ul
+{ list-style: none; padding: 0;
+}
+
+ul li
+{padding: 20px 50px; float: left;}
+
+ul li a 
+{text-decoration: none; color: #1E99FD; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";}
+
+ul li:hover
+{background-color: #BA0000;
+background-size: 300px;}
+
+
+
+
+
+.image
+{ width: 100%;
+ height: 520px;
+ background-image: url("../images/1.jpg");
+ background-position: right;
+ background-size: cover;
+ text-align: center;
+ padding-top: 100px;
+ float: left;
+ color: #FFFFFF;
+ font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+ letter-spacing: 1px;
+ }
+
+
+
+.button1
+{width: 200px;
+ height: 45px;
+ background-color: black;
+ border: #000000 5px;
+ color: #C327FF;
+ border-radius: 70px;
+ font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+ }
+
+
+.button1:hover
+{background-color: #D931E7;
+ color: black;}
+
+.image2
+{ width: 100%;
+ height: 1600px;
+ background-color: black;
+ background-image: url( "../images/wgowcfbifr831.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center 400px;}
+
+.textmain
+{height: 100px;
+width: 40%;
+background-color: 0;
+float: left;
+justify-content: center;
+margin: 10px 32%;
+text-align: center;}
+
+
+.text
+{width: 100%;
+ height: 100px;
+ color: black;
+ float: left;
+ font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+ line-height: 25px;
+ text-decoration-line: overline 4px; 
+ }
+
+
+.textbox
+{height: 100px;
+width: 420px;
+opacity: 100%;
+float: left;
+justify-content: center;
+margin: 20px 10%;
+text-align: center;
+font-style: bold;
+letter-spacing: 5px;
+}
+
+
+
+.mainitem
+{width: 100%;
+ height: 350px;
+ background-color: 0px;
+ justify-content: center;
+ display: flex;
+padding: 50px 0 0;}
+
+.item
+{width:25%;
+ height: 300px;
+ float: left;
+ margin: 30px;
+ align-items: center;}
+
+
+.textitem
+{width:100%;
+ height: 100px;
+ background-color: 0px;
+ justify-content: center;
+ display: flex;
+ }
+ 
+.button
+{width: 150px;
+ height: 50px;
+ margin: 10px 160px 0  ;
+ background-color: black;
+ border-radius: 0px;
+ color: #00EFFF;
+ border: 0px;
+ font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+ }
+
+.button:hover
+{background-color: #00EFFF;
+ color: #00188F;}
+
+.cyber
+{ width: 100%;
+ height: 277px;
+justify-content: center;
+ display: flex;
+ }
+
+.itemcyber
+{width:100%;
+ height: 300px;
+ background-color: black;
+ padding:  20px;
+ text-align: center;
+ font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+ color: #FA8AFA;
+}
+
+.mainartist
+{width: 100%;
+ height: 650px;
+ background-image: url( "../images/10.jpg");
+ background-position: right;
+ background-size: cover;
+justify-content: center;
+ display: flex;
+ padding-top: 100px;
+color: aqua;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+float: left;
+text-align: center;
+}
+
+
+
+.artistone
+{width:15%;
+ height: 320px;
+ float: left;
+ margin: 200px 60px ;
+ background-color: #050F23;
+ padding: 10px;
+ color: #1D76D4;
+ }
+ 
+.artistone:hover
+{background-color: #286FFF;
+ color: #090049;}
+
+
+
+
+.artisttwo
+{width:25%;
+ height: 460px;
+ float: left;
+ margin: 60px 50px;
+ background-color: #11020B;
+ padding: 10px;
+ color: #C51619;
+}
+
+
+.artisttwo:hover
+{background-color: #C51619;
+ color: #290000;}
+
+
+.artistthree
+{width:15%;
+ height: 320px;
+ float: left;
+ margin: 200px 60px;
+ align-items: center;
+ background-color: #13051B;
+ padding: 10px;
+ color: #8F1AB4;
+}
+
+
+.artistthree:hover
+{background-color: #8F1AB4;
+ color: #13051B;}
+
+.end
+{width:100%;
+height:300px;
+background-color:black;
+padding-top:800px;
+font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+color: #C1292C;
+text-align: center;}
